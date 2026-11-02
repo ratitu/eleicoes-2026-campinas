@@ -1,0 +1,7 @@
+cache/
+data/*.csv
+data/*.zip
+output/
+.Rhistory
+.RData
+.planning/
