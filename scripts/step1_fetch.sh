@@ -42,7 +42,7 @@ fetch_filter () {
 
   say "filtrando $CSV -> $OUT (CD_MUNICIPIO=$COD_MUN)"
   unzip -p "$ZIP" "$CSV" \
-    | awk -F';' 'NR==1{print; next} {c=$14; gsub(/"/,"",c); if(c=="'"$COD_MUN"'") print}' > "$OUT"
+    | awk -F';' 'NR==1{print; next} {c=$14; gsub(/"/,"",c); t=$6; gsub(/"/,"",t); if(c=="'"$COD_MUN"'" && (t=="2" || FILENAME ~ /SP/)) print}' > "$OUT"
   say "linhas=$(wc -l < "$OUT") bytes=$(stat -c %s "$OUT")"
   rm -f "$ZIP"
   say "removido $ZIP"

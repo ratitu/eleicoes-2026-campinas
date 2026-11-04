@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>doc</name>
+<atom:author>
+<atom:name>IBGE/DGC/CETE</atom:name>
+</atom:author>
+<atom:link href="http://www.ibge.gov.br"/>
+<visibility>1</visibility>
+<Schema name="Situação 7" id="kml_schema_ft_Situação_7">
+<SimpleField type="xsd:string" name="CD_SETOR">
+<displayName>CD_SETOR</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_SIT">
+<displayName>CD_SIT</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_SIT">
+<displayName>NM_SIT</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_UF">
+<displayName>CD_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_UF">
+<displayName>NM_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="SIGLA_UF">
+<displayName>SIGLA_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_MUN">
+<displayName>CD_MUN</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_MUN">
+<displayName>NM_MUN</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_DIST">
+<displayName>CD_DIST</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_DIST">
+<displayName>NM_DIST</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_SUBDIST">
+<displayName>CD_SUBDIST</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_SUBDIST">
+<displayName>NM_SUBDIST</displayName>
+</SimpleField>
+</Schema>
+<Schema name="Situação 5" id="kml_schema_ft_Situação_5">
+<SimpleField type="xsd:string" name="CD_SETOR">
+<displayName>CD_SETOR</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_SIT">
+<displayName>CD_SIT</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_SIT">
+<displayName>NM_SIT</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_UF">
+<displayName>CD_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_UF">
+<displayName>NM_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="SIGLA_UF">
+<displayName>SIGLA_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_MUN">
+<displayName>CD_MUN</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_MUN">
+<displayName>NM_MUN</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_DIST">
+<displayName>CD_DIST</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_DIST">
+<displayName>NM_DIST</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_SUBDIST">
+<displayName>CD_SUBDIST</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_SUBDIST">
+<displayName>NM_SUBDIST</displayName>
+</SimpleField>
+</Schema>
+<Schema name="Situação 8" id="kml_schema_ft_Situação_8">
+<SimpleField type="xsd:string" name="CD_SETOR">
+<displayName>CD_SETOR</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_SIT">
+<displayName>CD_SIT</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_SIT">
+<displayName>NM_SIT</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_UF">
+<displayName>CD_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_UF">
+<displayName>NM_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="SIGLA_UF">
+<displayName>SIGLA_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_MUN">
+<displayName>CD_MUN</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_MUN">
+<displayName>NM_MUN</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_DIST">
+<displayName>CD_DIST</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_DIST">
+<displayName>NM_DIST</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_SUBDIST">
+<displayName>CD_SUBDIST</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_SUBDIST">
+<displayName>NM_SUBDIST</displayName>
+</SimpleField>
+</Schema>
+<Schema name="Situação 3" id="kml_schema_ft_Situação_3">
+<SimpleField type="xsd:string" name="CD_SETOR">
+<displayName>CD_SETOR</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_SIT">
+<displayName>CD_SIT</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_SIT">
+<displayName>NM_SIT</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_UF">
+<displayName>CD_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_UF">
+<displayName>NM_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="SIGLA_UF">
+<displayName>SIGLA_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_MUN">
+<displayName>CD_MUN</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_MUN">
+<displayName>NM_MUN</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_DIST">
+<displayName>CD_DIST</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_DIST">
+<displayName>NM_DIST</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_SUBDIST">
+<displayName>CD_SUBDIST</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_SUBDIST">
+<displayName>NM_SUBDIST</displayName>
+</SimpleField>
+</Schema>
+<Schema name="Situação 2" id="kml_schema_ft_Situação_2">
+<SimpleField type="xsd:string" name="CD_SETOR">
+<displayName>CD_SETOR</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_SIT">
+<displayName>CD_SIT</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_SIT">
+<displayName>NM_SIT</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_UF">
+<displayName>CD_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_UF">
+<displayName>NM_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="SIGLA_UF">
+<displayName>SIGLA_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_MUN">
+<displayName>CD_MUN</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_MUN">
+<displayName>NM_MUN</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_DIST">
+<displayName>CD_DIST</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_DIST">
+<displayName>NM_DIST</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_SUBDIST">
+<displayName>CD_SUBDIST</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_SUBDIST">
+<displayName>NM_SUBDIST</displayName>
+</SimpleField>
+</Schema>
+<Schema name="Situação 1" id="kml_schema_ft_Situação_1">
+<SimpleField type="xsd:string" name="CD_SETOR">
+<displayName>CD_SETOR</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_SIT">
+<displayName>CD_SIT</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_SIT">
+<displayName>NM_SIT</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_UF">
+<displayName>CD_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_UF">
+<displayName>NM_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="SIGLA_UF">
+<displayName>SIGLA_UF</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_MUN">
+<displayName>CD_MUN</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_MUN">
+<displayName>NM_MUN</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_DIST">
+<displayName>CD_DIST</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_DIST">
+<displayName>NM_DIST</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CD_SUBDIST">
+<displayName>CD_SUBDIST</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NM_SUBDIST">
+<displayName>NM_SUBDIST</displayName>
+</SimpleField>
+</Schema>
+</Document></kml>

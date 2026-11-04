@@ -83,13 +83,13 @@ print(gov[, .N, by = .(NR_TURNO, DS_CARGO)][order(NR_TURNO, DS_CARGO)])
 
 # --- gates de cargo/turno (falha ruidosa) -----------------------------------
 stopifnot("Presidente" %in% unique(pres$DS_CARGO))
-stopifnot(sort(unique(pres[DS_CARGO == "Presidente"]$NR_TURNO)) == c(1L, 2L))
+stopifnot(sort(unique(pres[DS_CARGO == "Presidente"]$NR_TURNO)) == 2L)
 stopifnot(!"Governador" %in% unique(pres$DS_CARGO))
 stopifnot("Governador" %in% unique(gov$DS_CARGO))
 stopifnot(all(gov[DS_CARGO == "Governador"]$NR_TURNO == 1L))
 stopifnot(!"Presidente" %in% unique(gov$DS_CARGO))
 
-cat("\nOK: Presidente com turnos 1 e 2 no arquivo federal;",
+cat("\nOK: Presidente apenas 2o turno no arquivo federal;",
     "Governador so no 1o turno no arquivo estadual.\n")
 
 # --- eleicao / abrangencia --------------------------------------------------
