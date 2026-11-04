@@ -40,10 +40,14 @@ bash scripts/run_all.sh --clean
 
 ## 📊 Placar Municipal
 
-| Eleição | Vencedor Principal | Votos / % | Segundo Colocado | Votos / % |
-|---|---|---|---|---|
-| **Presidente (2º T)** | Flávio Bolsonaro (PL) | 360.222 (54,24%) | Lula (PT) | 303.914 (45,76%) |
-| **Governador (1º T)** | Tarcísio de Freitas (Republicanos) | 367.121 (61,88%) | Fernando Haddad (PT) | 219.874 (37,06%) |
+| Eleição | Vencedor Principal | Votos / % | Segundo Colocado | Votos / % | Total Válidos |
+|---|---|---|---|---|---|
+| **Presidente (2º T)** | Flávio Bolsonaro (PL) | 360.222 (54,24%) | Lula (PT) | 303.914 (45,76%) | **664.136** |
+| **Governador (1º T)** | Tarcísio de Freitas (Republicanos) | 367.121 (61,88%) | Fernando Haddad (PT) | 219.874 (37,06%) | **593.302** |
+
+### Distribuição Territorial (Bairros Vencidos)
+- **Presidente 2º Turno:** Flávio Bolsonaro 70 bairros | Lula 23 bairros
+- **Governador 1º Turno:** Tarcísio de Freitas 92 bairros | Fernando Haddad 1 bairro
 
 ---
 
