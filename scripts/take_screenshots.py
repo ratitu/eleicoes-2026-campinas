@@ -7,7 +7,7 @@ os.makedirs("output", exist_ok=True)
 async def main():
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True)
-        context = await browser.new_context(viewport={"width": 1280, "height": 800})
+        context = await browser.new_context(viewport={"width": 1080, "height": 1080})
 
         pages = [
             ("http://localhost:8000/index.html", "output/slide_landing.png"),
@@ -20,7 +20,7 @@ async def main():
             print(f"Navigating to {url}...")
             await page.goto(url, wait_until="domcontentloaded")
             await asyncio.sleep(3) # ensure tiles/render complete
-            await page.screenshot(path=path, full_page=True)
+            await page.screenshot(path=path, clip={"x": 0, "y": 0, "width": 1080, "height": 1080})
             print(f"Saved {path}")
             await page.close()
 
