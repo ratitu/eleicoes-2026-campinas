@@ -127,7 +127,9 @@ for (const f of feats) {
   if (p.margem_pp > LIMIAR_EMPATE) n1++;
   else if (p.margem_pp < -LIMIAR_EMPATE) n2++;
   else if (p.votos_validos > 0) n0++;
-  s1 += p.votos_1; s2 += p.votos_2; sv += p.votos_validos;
+  if (p.n_secoes > 0) {
+    s1 += p.votos_1; s2 += p.votos_2; sv += p.votos_validos;
+  }
 }
 document.getElementById("n-1").textContent = n1;
 document.getElementById("n-2").textContent = n2;
